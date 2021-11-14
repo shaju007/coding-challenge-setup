@@ -1,11 +1,11 @@
-2021-11-14T09:55:42+00:00
+2021-11-14T14:41:03+00:00
 
 PHP settings:
 ==========
 phpinfo()
 PHP Version => 8.0.12
 
-System => Linux 7bdff98284c4 5.10.47-linuxkit #1 SMP Sat Jul 3 21:51:47 UTC 2021 x86_64
+System => Linux d6f290c0b0d0 5.10.47-linuxkit #1 SMP Sat Jul 3 21:51:47 UTC 2021 x86_64
 Build Date => Oct 21 2021 15:23:04
 Build System => Linux 00d7ff3d4167 4.19.0-14-cloud-amd64 #1 SMP Debian 4.19.171-2 (2021-01-30) x86_64 GNU/Linux
 Configure Command =>  './configure'  '--build=x86_64-linux-gnu' '--with-config-file-path=/usr/local/etc/php' '--with-config-file-scan-dir=/usr/local/etc/php/conf.d' '--enable-option-checking=fatal' '--with-mhash' '--with-pic' '--enable-ftp' '--enable-mbstring' '--enable-mysqlnd' '--with-password-argon2' '--with-sodium=shared' '--with-pdo-sqlite=/usr' '--with-sqlite3=/usr' '--with-curl' '--with-openssl' '--with-readline' '--with-zlib' '--with-pear' '--with-libdir=lib/x86_64-linux-gnu' '--enable-embed' 'build_alias=x86_64-linux-gnu'
@@ -487,15 +487,12 @@ Development Helpers => ✘ disabled
 Coverage => ✘ disabled
 GC Stats => ✘ disabled
 Profiler => ✘ disabled
-Step Debugger => ✔ enabled
+Step Debugger => ✘ disabled
 Tracing => ✘ disabled
 
                             Optional Features                            
 Compressed File Support => no
 Clock Source => clock_gettime
-
-Debugger => enabled
-IDE Key =>  
 
 Directive => Local Value => Master Value
 xdebug.auto_trace => (setting renamed in Xdebug 3) => (setting renamed in Xdebug 3)
@@ -537,7 +534,7 @@ xdebug.log => no value => no value
 xdebug.log_level => 7 => 7
 xdebug.max_nesting_level => 256 => 256
 xdebug.max_stack_frames => -1 => -1
-xdebug.mode => debug => debug
+xdebug.mode => no value => no value
 xdebug.output_dir => /tmp => /tmp
 xdebug.overload_var_dump => (setting removed in Xdebug 3) => (setting removed in Xdebug 3)
 xdebug.profiler_append => Off => Off
@@ -610,7 +607,7 @@ Environment
 Variable => Value
 DB_CONNECTION => mysql
 APP_DEBUG => true
-HOSTNAME => 7bdff98284c4
+HOSTNAME => d6f290c0b0d0
 PHP_INI_DIR => /usr/local/etc/php
 APP_URL =>  
 DB_PORT => 3306
@@ -649,7 +646,7 @@ PHP Variables
 Variable => Value
 $_SERVER['DB_CONNECTION'] => mysql
 $_SERVER['APP_DEBUG'] => true
-$_SERVER['HOSTNAME'] => 7bdff98284c4
+$_SERVER['HOSTNAME'] => d6f290c0b0d0
 $_SERVER['PHP_INI_DIR'] => /usr/local/etc/php
 $_SERVER['APP_URL'] => 
 $_SERVER['DB_PORT'] => 3306
@@ -687,8 +684,8 @@ $_SERVER['SCRIPT_NAME'] =>
 $_SERVER['SCRIPT_FILENAME'] => 
 $_SERVER['PATH_TRANSLATED'] => 
 $_SERVER['DOCUMENT_ROOT'] => 
-$_SERVER['REQUEST_TIME_FLOAT'] => 1636883742.0564
-$_SERVER['REQUEST_TIME'] => 1636883742
+$_SERVER['REQUEST_TIME_FLOAT'] => 1636900863.0369
+$_SERVER['REQUEST_TIME'] => 1636900863
 $_SERVER['argv'] => Array
 (
 )
@@ -696,7 +693,7 @@ $_SERVER['argv'] => Array
 $_SERVER['argc'] => 0
 $_ENV['DB_CONNECTION'] => mysql
 $_ENV['APP_DEBUG'] => true
-$_ENV['HOSTNAME'] => 7bdff98284c4
+$_ENV['HOSTNAME'] => d6f290c0b0d0
 $_ENV['PHP_INI_DIR'] => /usr/local/etc/php
 $_ENV['APP_URL'] => 
 $_ENV['DB_PORT'] => 3306
